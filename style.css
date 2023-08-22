@@ -1,0 +1,106 @@
+.main{
+    background-color: #FFFE9A;
+    
+}
+
+.sidebar{
+    
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 400px;
+    margin-left: 100px;
+    top: 0px;
+
+    
+}
+.creative{
+    color: rgb(73, 119, 4);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+.head{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Libre Caslon Text', serif;
+    font-family: 'Sacramento', cursive;
+    font-size:2rem ;
+    line-height: 0.2;
+    font-weight: 900;
+    position: relative;
+    margin-left: 540px;
+    padding-top: 120px;
+}
+.center{
+    width: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 350px;
+    grid-template-rows: 200px 200px 200px 70px 200px 200px 200px 200px 200px; 
+    margin-left: 150px;
+}
+.experience{
+    font-family: 'halcom', sans-serif;
+    grid-column-start:3;
+    grid-column-end:5;
+    grid-row-start:1;
+    grid-row-end: 3;
+    
+}
+p{
+    font-size: 17px;
+}
+.education{
+    grid-column-start:6;
+    grid-column-end:8;
+    grid-row-start:1;
+    grid-row-end: 3;
+}
+.skills{
+    font-family: 'halcom', sans-serif;
+    grid-column-start:3;
+    grid-column-end:5;
+    grid-row-start:5;
+    grid-row-end: 7;
+
+}
+.languages{
+    font-family: 'halcom', sans-serif;
+    grid-column-start:6;
+    grid-column-end:8;
+    grid-row-start:5;
+    grid-row-end: 7;
+
+}
+.hobbies{
+    font-family: 'halcom', sans-serif;
+    grid-column-start:3;
+    grid-column-end:6;
+    grid-row-start:7;
+    grid-row-end: 9;
+
+}
+.footer{
+    grid-column-start:3;
+    grid-column-end:9;
+    grid-row-start:9;
+    grid-row-end: 10;
+
+}
+.foothr{
+    width: 100%;
+}
+hr{
+    width: 400px;
+    text-align: left;
+    align-items: left;
+    margin-left: 0;
+    height: 3px;
+    background-color: black;
+    color: antiquewhite;
+    
+}
